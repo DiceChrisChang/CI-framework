@@ -25,8 +25,6 @@ class Login extends CI_Controller {
     public function index()
     {
         $data['title'] = 'login title';
-        $data['heading'] = "My Real Heading";
-        //没有出现结果，可能与bootstrap有关；
         return $this->load->view('login', $data);
     }
 
@@ -44,7 +42,7 @@ class Login extends CI_Controller {
            echo "非法操作";
        }
     }
-    
+
     public function success() {
         echo "success";
     }

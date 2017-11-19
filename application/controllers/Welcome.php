@@ -20,7 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		echo "这是旧的 CI 文件";
 		$this->load->view('welcome_message');
 	}
 }
